@@ -1,0 +1,174 @@
+body{
+    background-color: #1F242D;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.right{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.right img{
+    display: none;
+}
+.right a{
+text-decoration: none;
+color: white;
+}
+.right :hover{
+    color: #00EEFF;
+}
+.mainleft{
+    color: white;
+}
+.mainleft b{
+    color: #00EEFF;
+}
+.mainright{
+    width: 400px;
+    height: 600px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn{
+background-color: #00EEFF;
+width: 160px;
+height: 50px;
+border-radius: 20px;
+border: none;
+box-shadow: 0px 0px 10px 0px #00EEFF;
+margin-top :16px;
+
+}
+b{
+    color: #00EEFF;
+}
+.our{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+.cards div{
+    width: 380px;
+    height: 369px;
+    background-color:#323946 ;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    color: white;
+}
+.cards div button{
+    width: 151px;
+    height: 45px;
+    background-color: #00EEFF;
+    box-shadow: 0px 0px 10px 0px #00EEFF;
+    border-radius: 40px;
+    border: none;
+    margin-top: 30px;
+}
+.box3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    flex-wrap: wrap;
+    background-color: #323946;
+
+}
+.box3 img{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px #1F242D;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.divh1{
+    background-color: #323946;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+form{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 150px;
+}
+input{
+    width: 390px;
+    height: 51px;
+    background-color: #323946;
+    margin-left: 50px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 0 auto;
+}
+textarea{
+    width: 850px;
+    height: 280px;
+    background-color: #323946;
+    margin-left: 55px;
+}
+@media(max-width:880px){
+    .card{  
+        width: 300px;
+        height: 300px;  
+    }
+    .card{
+        width: 95% !important;
+    }
+    .box{
+        flex-direction: column;
+    }
+}
+@media(max-width:550px){
+    .cards div{
+        width: 60% !important;        
+    }
+
+    .right a{
+        display: none;
+    }
+    .right img{
+        display: flex;
+        margin-left: 350px;
+    }
+}
+
+.b2{
+    color: #03f8f8;
+}
+.our1{
+    color: rgb(246, 248, 248);
+    text-align: center;
+    font-size: 45px;
+}
+.box4 button{
+    width: 186px;
+height: 45px;
+border-radius: 40px;
+border: none;
+background: rgba(0, 238, 255, 1);
+margin-left: 550px;
+text-shadow:  0px 0px 10px 0px #00EEFF;
+}
+footer{
+    width: 1140px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
